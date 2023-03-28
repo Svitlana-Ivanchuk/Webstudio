@@ -1,0 +1,51 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  /* --------hero----------- */
+  .hero-title {
+    width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 40px;
+  }
+
+  /* --------feature----------- */
+  .feature-list {
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+  .feature-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .feature-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .feature-subtitle {
+    margin-bottom: 8px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  /* --------team----------- */
+
+  .team-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  /*---------customers-------*/
+
+  .customers-list-icon {
+    column-gap: 24px;
+  }
+
+  .customers-icon-item {
+    width: calc((100% - 24px * 2) / 3);
+  }
+}
+
+@media screen and (min-width: 768px), (max-width: 1199px) {
+  .team-list {
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+}
