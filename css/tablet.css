@@ -37,6 +37,13 @@
     flex-wrap: wrap;
     gap: 4px;
   }
+  .header-tel {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
   .header-nav-wrap {
     position: static;
     width: unset;
@@ -46,7 +53,8 @@
     align-items: center;
   }
   .btn-mobile,
-  .header-btn-mobile {
+  .header-btn-mobile,
+  .header-social-list {
     display: none;
   }
   /* --------hero----------- */

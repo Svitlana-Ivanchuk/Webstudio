@@ -9,4 +9,10 @@
     max-width: 300px;
     font-size: 30px;
   }
+  .header-nav-wrap {
+    padding: 20px;
+  }
+  .header-social-list {
+    gap: 24px;
+  }
 }
