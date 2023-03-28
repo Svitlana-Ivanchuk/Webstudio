@@ -5,6 +5,15 @@
   .section {
     padding: 120px 0;
   }
+  /* ----------header--------- */
+  .header-logo {
+    margin-right: 76px;
+  }
+
+  .header-address-list {
+    display: flex;
+    gap: 40px;
+  }
 
   /* --------hero----------- */
   .hero {
