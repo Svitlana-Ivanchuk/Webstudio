@@ -117,17 +117,50 @@ img {
 
 /* --------------header-------------- */
 .header {
+  padding: 24px 16px;
   border-bottom: 1px solid var(--main-border-btn);
 }
 .header-container {
-  /* display: flex;
+  display: flex;
   justify-content: space-between;
-  align-items: center; */
+  align-items: center;
+}
+.menu-btn-mobile {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  color: #2e2f42;
+  stroke-width: 0;
+  stroke: currentColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: transparent;
+}
+.icon-humburger {
+  fill: currentColor;
+}
+.header-nav-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  padding: 40px;
+  z-index: 1000;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+.header-nav-wrap.is-open {
+  transform: translateX(0);
 }
 .header-navigation {
+  width: 100%;
   margin-top: 16px;
-  /* display: flex;
-  align-items: center; */
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -174,22 +207,24 @@ img {
 .header-link.activ {
   color: var(--accent-color);
 }
-
+.header-contacts {
+  width: 100%;
+}
 .header-address {
+  margin-bottom: 48px;
 }
 .header-address-list {
-  /* display: flex;
+  display: flex;
   flex-wrap: wrap;
-  flex-direction: column-reverse; */
-  margin-bottom: 48px;
-  /* row-gap: 40px; */
+  flex-direction: column-reverse;
+  gap: 40px;
 }
 .header-address-item {
 }
 .header-mail {
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text);
@@ -216,25 +251,11 @@ img {
 .header-tel:focus {
   color: var(--accent-color);
 }
-.header-nav-wrap {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: #fff;
-  padding: 40px;
-  /* display: flex;
-  flex-wrap: wrap;
-  align-content: space-between; */
-}
+
 .header-social-list {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 56px;
-}
-.header-contacts {
-  margin-bottom: auto;
 }
 
 /* --------hero----------- */

@@ -30,9 +30,18 @@
         <a href="./index.html" class="header-logo link">
           <p class="header-logo-text"><span>Web</span>Studio</p>
         </a>
-        <button type="button" class="header-btn-mobile" js-open-menu>+</button>
-        <div class="header-nav-wrap" js-menu-container>
-          <button type="button" class="modal-close btn-mobile" js-close-menu>
+        <button
+          type="button"
+          class="menu-btn-mobile js-open-menu"
+          aria-expanded="false"
+          aria-controls="header-nav-wrap"
+        >
+          <svg class="icon-humburger" width="32px" height="22px">
+            <use href="./images/icons.svg#icon-hamburger"></use>
+          </svg>
+        </button>
+        <div class="header-nav-wrap js-menu-container">
+          <button type="button" class="modal-close btn-mobile js-close-menu">
             <svg class="modal-close-icon" width="8px" height="8px">
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
