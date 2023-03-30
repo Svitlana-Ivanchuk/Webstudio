@@ -5,6 +5,8 @@
   .container {
     width: 768px;
   }
+  .container-sm {
+  }
   /* ----------header--------- */
   .header {
     padding: 0;
@@ -123,6 +125,32 @@
   .footer-container {
     display: flex;
     align-items: start;
+    flex-wrap: wrap;
+  }
+  .footer-logo {
+    display: inline-block;
+  }
+  .footer-social-content {
+  }
+  .footer-social-text {
+    text-align: start;
+  }
+  .footer-subscribe {
+    flex-grow: 1;
+  }
+  .footer-form-label {
+    text-align: start;
+  }
+  .footer-form {
+    flex-wrap: nowrap;
+    align-items: flex-end;
+  }
+  .form-group {
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+  .form-input {
+    min-width: 264px;
   }
 }
 
@@ -130,5 +158,9 @@
   .team-list {
     row-gap: 64px;
     column-gap: 24px;
+  }
+
+  .container-sm {
+    max-width: 552px;
   }
 }
