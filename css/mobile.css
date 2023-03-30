@@ -8,11 +8,12 @@
   .header-social-list {
     gap: 24px;
   }
+  .header-tel {
+    font-size: 24px;
+  }
+
   .hero-title {
     width: 100%;
     font-size: 36px;
-  }
-  .header-tel {
-    font-size: 24px;
   }
 }

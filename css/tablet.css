@@ -1,10 +1,39 @@
+@media screen and (max-width: 767px) {
+}
+
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
   }
   /* ----------header--------- */
+  .header {
+    padding: 0 16px;
+  }
+  .header-container {
+    justify-content: flex-start;
+  }
   .header-logo {
     margin-right: 120px;
+    flex-shrink: 0;
+  }
+  .header-nav-wrap {
+    position: static;
+    width: unset;
+    height: unset;
+    padding: 0;
+    transform: none;
+    transition: none;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 118px;
+  }
+  .header-navigation {
+    position: static;
+    width: 100%;
+    margin-top: 0;
+  }
+  .header-contacts {
+    display: flex;
   }
   .header-list {
     display: flex;
@@ -21,6 +50,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    padding: 24px 0;
   }
   .header-link.activ::after {
     position: absolute;
@@ -32,26 +62,22 @@
     background-color: var(--accent-color);
     border-radius: 2px;
   }
-  .header-address-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
+  .header-address {
+    margin-bottom: 0;
   }
+  .header-address-list {
+    flex-wrap: nowrap;
+    gap: 4px;
+    flex-direction: column;
+  }
+  .header-mail,
   .header-tel {
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: 1.33;
   }
 
-  .header-nav-wrap {
-    position: static;
-    width: unset;
-    height: unset;
-    padding: 0;
-    display: flex;
-    align-items: center;
-  }
   .btn-mobile,
   .menu-btn-mobile,
   .header-social-list {
