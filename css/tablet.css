@@ -7,14 +7,13 @@
   }
   /* ----------header--------- */
   .header {
-    padding: 0 16px;
+    padding: 0;
   }
   .header-container {
     justify-content: flex-start;
   }
   .header-logo {
     margin-right: 120px;
-    flex-shrink: 0;
   }
   .header-nav-wrap {
     position: static;
@@ -29,7 +28,6 @@
   }
   .header-navigation {
     position: static;
-    width: 100%;
     margin-top: 0;
   }
   .header-contacts {
@@ -72,12 +70,10 @@
   }
   .header-mail,
   .header-tel {
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.33;
   }
-
   .btn-mobile,
   .menu-btn-mobile,
   .header-social-list {
@@ -103,7 +99,6 @@
     margin-bottom: 0;
   }
   .feature-subtitle {
-    margin-bottom: 8px;
     margin-right: 0;
     margin-left: 0;
   }
@@ -114,13 +109,20 @@
   }
 
   /*---------customers-------*/
-
   .customers-list-icon {
     column-gap: 24px;
   }
-
   .customers-icon-item {
     width: calc((100% - 24px * 2) / 3);
+  }
+
+  /* --------footer----------- */
+  .footer-slogan {
+    margin-right: 24px;
+  }
+  .footer-container {
+    display: flex;
+    align-items: start;
   }
 }
 
