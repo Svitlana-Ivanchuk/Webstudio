@@ -116,6 +116,7 @@
   }
   .footer-slogan {
     margin-right: 120px;
+    margin-bottom: 0;
   }
   .footer-social-list {
     justify-content: flex-start;

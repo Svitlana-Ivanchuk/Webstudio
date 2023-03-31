@@ -525,6 +525,7 @@ img {
 }
 .footer-subscribe {
   display: flex;
+  justify-content: center;
 }
 .footer-form {
   display: flex;

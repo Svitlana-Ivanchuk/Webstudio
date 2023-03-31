@@ -127,12 +127,15 @@
   .footer-logo {
     display: inline-block;
   }
-
+  .footer-social-content {
+    margin-bottom: 0;
+  }
   .footer-social-text {
     text-align: start;
   }
   .footer-subscribe {
     flex-grow: 1;
+    justify-content: flex-start;
   }
   .footer-form-label {
     text-align: start;
