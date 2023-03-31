@@ -23,6 +23,7 @@
     flex-wrap: nowrap;
     align-items: center;
     gap: 118px;
+    z-index: 0;
   }
   .header-navigation {
     position: static;
@@ -72,7 +73,7 @@
     font-size: 12px;
     line-height: 1.33;
   }
-  .btn-mobile,
+  .menu-btn-close,
   .menu-btn-mobile,
   .header-social-list {
     display: none;
@@ -168,6 +169,7 @@
     display: flex;
     flex-basis: calc((100% - 24px) / 2);
   }
+  /* -------------MODAL---------------- */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {

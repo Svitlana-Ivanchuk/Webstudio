@@ -17,3 +17,13 @@
     font-size: 36px;
   }
 }
+
+@media screen and (min-width: 420px) {
+  /* -------------MODAL---------------- */
+  .modal {
+    min-width: 408px;
+  }
+  .modal-label-checkbox {
+    flex-wrap: nowrap;
+  }
+}
