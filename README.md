@@ -1,1 +1,3 @@
-# goit-markup-hw-07
+# Example site Webstudio
+
+HTML, CSS, JS
